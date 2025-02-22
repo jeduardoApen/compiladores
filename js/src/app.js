@@ -80,4 +80,5 @@ if: $x  == 10 then: {
 checkString(textTest)
 
 
+
 export default checkString

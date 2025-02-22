@@ -1,4 +1,5 @@
 import checkString from "./src/app.js"
+import parser from "./src/utils/Parser.js"
 import MainView from "./src/views/mainView.js"
 // checkString()
 
@@ -8,6 +9,8 @@ mainNode.innerHTML = await MainView()
 
 
 // let formData = mainNode.querySelector("#formData")
+
+
 
 let buttonData = mainNode.querySelector("#buttonCheck")
 console.log(formData)
